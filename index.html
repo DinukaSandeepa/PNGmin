@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>PNG Compressor</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <input type="file" accept=".png" id="fileInput">
+    <button onclick="compressImage()">Compress</button>
+    <a id="downloadLink" download="compressed.png" style="display: none;">Download Compressed Image</a>
+    <div id="output"></div>
+    <div id="info"></div>
+  </div>
+</body>
+
+</html>
